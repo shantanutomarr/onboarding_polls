@@ -1,8 +1,5 @@
 import pytest
 from django.test import RequestFactory
-from django.contrib.auth.models import AnonymousUser
-from mixer.backend.django import mixer
-from django.http import Http404
 
 from .. import views
 
